@@ -10,7 +10,7 @@ import numpy as np
 #plt.ion()
 plotnet = 1 # 1 if plot network, 0 is no figure
 
-outfile = open("randomnetoutput5_10k.txt", "wb")
+outfile = open("randomnetoutput.txt", "wb")
 outfile.write("Node"+"\t"+ "Edges"+"\t"+"Mcrit"+"\t"+"Var"+"\t"+"Eff"+"\t"+"Var/Edge"+"\t"+"MaxDiam"+"\t"+"Dend"+"\t"+"Terminal"+"\t"+"Even"+"\t"+"V/E"+"\t"+"Net"+"\n")
 
 nodes = 10
